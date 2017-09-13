@@ -5,13 +5,17 @@ CHAPTER - https://www.chapters.indigo.ca/en-ca/books/iphone-for-seniors-for-dumm
 
 ## Coding of changing image
 let node = document.querySelector('.product-image__image--single')
+
 node
+
 node.src='http://cdn03.cdn.justjared.com/wp-content/uploads/headlines/2017/08/joi-harris-rip.jpg'
 
 ## coding for changing title
 
 node = document.querySelector('.item-page__main-title')
+
 node.textContent
+
 node.textContent='the great deadpool';
 
 
